@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: project-controller
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhtap-o11y-tenant/project-controller/project-controller@sha256:eb1be314f302c6955e4d11fa73d01965860e23e393f224203e091c895a8d56ef
         imagePullPolicy: Always
         name: container-image
         resources:
